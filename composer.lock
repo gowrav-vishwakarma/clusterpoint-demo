@@ -1,0 +1,133 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "4b4c780e8cf34c56ed9be93fea12adb2",
+    "packages": [
+        {
+            "name": "atk4/atk4",
+            "version": "4.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/atk4/atk4.git",
+                "reference": "9ac0f6c8644323780244b602e06bab3703a97dc0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/atk4/atk4/zipball/9ac0f6c8644323780244b602e06bab3703a97dc0",
+                "reference": "9ac0f6c8644323780244b602e06bab3703a97dc0",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "": "lib/"
+                },
+                "files": [
+                    "/lib/static.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "homepage": "https://agiletoolkit.org/",
+            "keywords": [
+                "atk4",
+                "framework"
+            ],
+            "time": "2015-03-16 16:27:31"
+        },
+        {
+            "name": "educoder/pest",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/educoder/pest.git",
+                "reference": "7c4d24d6aafc4ebac711c73cc8797d9b1779525b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/educoder/pest/zipball/7c4d24d6aafc4ebac711c73cc8797d9b1779525b",
+                "reference": "7c4d24d6aafc4ebac711c73cc8797d9b1779525b",
+                "shasum": ""
+            },
+            "require": {
+                "lib-curl": "*",
+                "php": ">=5.2"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    ""
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Matt Zukowski",
+                    "email": "matt@zukowski.ca"
+                },
+                {
+                    "name": "Donald Sipe",
+                    "email": "donald.sipe@gmail.com"
+                }
+            ],
+            "description": "A proper REST client for PHP.",
+            "homepage": "https://github.com/educoder/pest",
+            "time": "2013-11-17 12:58:01"
+        },
+        {
+            "name": "romaninsh/cps-api",
+            "version": "1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/romaninsh/cps-api.git",
+                "reference": "3cf91c0b37f0c9ede79e43ad0d5a57750bcc80a9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/romaninsh/cps-api/zipball/3cf91c0b37f0c9ede79e43ad0d5a57750bcc80a9",
+                "reference": "3cf91c0b37f0c9ede79e43ad0d5a57750bcc80a9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "/lib/cps_simple.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "ClusterPoint"
+                }
+            ],
+            "homepage": "https://www.clusterpoint.com/",
+            "keywords": [
+                "api",
+                "clusterpoint"
+            ],
+            "time": "2015-03-16 03:00:11"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
