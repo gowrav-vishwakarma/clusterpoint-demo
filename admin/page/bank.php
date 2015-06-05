@@ -50,9 +50,9 @@ class page_bank extends Page {
 
     function page_edit(){
         $id = $this->api->stickyGET('id');
-        $doc = $this->api->cpsSimple->retrieveMultiple($id, DOC_TYPE_ARRAY)[$id];
+        $doc = $this->api->cpsSimple->retrieveSingle($id, DOC_TYPE_ARRAY);
         $f = $this->add('Form');
-        $f->addField('line','name')->set($doc[$id]['name'])->validateNotNull();
+        $f->addField('line','name')->set($doc['name'])->validateNotNull();
 
         $f->onSubmit(function($f)use($id, $doc){
             $doc['name'] = $f['name'];
